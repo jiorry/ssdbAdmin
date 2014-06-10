@@ -10,4 +10,5 @@ type Zset struct {
 
 func (p *Zset) Init() {
 	SetupPage(&p.Page, "zset")
+	p.Title = "zset"
 }

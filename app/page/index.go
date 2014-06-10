@@ -10,6 +10,7 @@ type Index struct {
 
 func (p *Index) Init() {
 	SetupPage(&p.Page, "index")
+	p.Title = "ssdb admin"
 }
 
 func SetupPage(p *gos.Page, name string) {

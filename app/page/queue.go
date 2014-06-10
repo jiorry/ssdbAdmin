@@ -10,4 +10,5 @@ type Queue struct {
 
 func (p *Queue) Init() {
 	SetupPage(&p.Page, "queue")
+	p.Title = "queue"
 }

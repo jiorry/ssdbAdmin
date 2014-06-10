@@ -27,3 +27,15 @@ td.buttons > .glyphicon{
 #keysContainer form input{
 	width: 100%;
 }
+
+.th-key{
+	width: 25%;
+}
+
+.th-val{
+	width: 60%;
+}
+
+.th-btn{
+	width: 15%;
+}

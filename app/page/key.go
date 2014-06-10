@@ -10,4 +10,5 @@ type Key struct {
 
 func (p *Key) Init() {
 	SetupPage(&p.Page, "key")
+	p.Title = "keys"
 }

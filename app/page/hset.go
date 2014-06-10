@@ -10,4 +10,5 @@ type Hset struct {
 
 func (p *Hset) Init() {
 	SetupPage(&p.Page, "hset")
+	p.Title = "hset "
 }
