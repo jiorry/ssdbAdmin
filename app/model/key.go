@@ -7,12 +7,18 @@ import (
 
 type IModel interface {
 	LoadRecord(string, string, int) ([]string, error)
+	LoadRecordItems(string, string, string, int) ([]string, error)
+	DelItem(string, string) (bool, error)
 	Del(string) (bool, error)
 	GetItemValue(string, string) (string, error)
 	GetValue(string) (string, error)
 }
 
 type KeyModel struct{}
+
+func (k *KeyModel) LoadRecordItems(name, start, end string, limit int) ([]string, error) {
+	return nil, nil
+}
 
 func (k *KeyModel) LoadRecord(start, end string, limit int) ([]string, error) {
 	r, err := ssdb.Do("keys", start, end, limit)

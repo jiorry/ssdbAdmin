@@ -1,7 +1,6 @@
 ssdbAdmin
 =========
 
-ssdb web admin
 ![image](https://github.com/jiorry/ssdbAdmin/raw/master/release/ssdbAdmin.png)
 
 ## Installation

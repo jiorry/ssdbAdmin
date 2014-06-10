@@ -13,7 +13,9 @@ func main() {
 	gos.Route("/", (*page.Index)(nil))
 	gos.Route("/key", (*page.Key)(nil))
 	gos.Route("/hset", (*page.Hset)(nil))
+	gos.Route("/hset/get", (*page.HsetItem)(nil))
 	gos.Route("/zset", (*page.Zset)(nil))
+	gos.Route("/zset/get", (*page.ZsetItem)(nil))
 	gos.Route("/queue", (*page.Queue)(nil))
 
 	// open api router

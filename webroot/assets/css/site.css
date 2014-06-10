@@ -7,6 +7,12 @@ a{
 footer.footer{
 	padding-top: 80px;
 }
+table.table{
+	word-wrap: break-word;
+}
+table.table td{
+	max-width: 460px;
+}
 td.buttons > .glyphicon{
 	margin-right: 10px;
 }

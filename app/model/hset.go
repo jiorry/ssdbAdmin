@@ -7,6 +7,10 @@ import (
 
 type HsetModel struct{}
 
+func (h *HsetModel) LoadRecordItems(name, start, end string, limit int) ([]string, error) {
+	return nil, nil
+}
+
 func (h *HsetModel) LoadRecord(start, end string, limit int) ([]string, error) {
 	r, err := ssdb.Do("hlist", start, end, limit)
 	if err != nil {

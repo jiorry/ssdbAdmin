@@ -7,6 +7,10 @@ import (
 
 type ZsetModel struct{}
 
+func (h *ZsetModel) LoadRecordItems(name, start, end string, limit int) ([]string, error) {
+	return nil, nil
+}
+
 func (h *ZsetModel) LoadRecord(start, end string, limit int) ([]string, error) {
 	r, err := ssdb.Do("zlist", start, end, limit)
 	if err != nil {
