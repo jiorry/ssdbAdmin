@@ -1,0 +1,16 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">SSDB Admin</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li{{if .index}} class="active"{{end}}><a href="/">Home</a></li>
+        <li{{if .key}} class="active"{{end}}><a href="/key">Key</a></li>
+        <li{{if .hset}} class="active"{{end}}><a href="/hset">Hset</a></li>
+        <li{{if .zset}} class="active"{{end}}><a href="/zset">Zset</a></li>
+        <li{{if .queue}} class="active"{{end}}><a href="/queue">Queue</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>

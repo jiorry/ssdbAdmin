@@ -1,0 +1,29 @@
+<div id="keysContainer" class="container">
+	<div class="col-md-12">
+		<form class="form-inline" role="form">
+			<div class="form-group col-xs-2">
+				<input type="text" class="form-control" id="txtStart" placeholder="start key name">
+			</div>
+			<div class="form-group col-xs-2">
+				<input type="text" class="form-control" id="txtEnd" placeholder="end key name">
+			</div>
+			<div class="form-group col-xs-1">
+				<input type="text" value="500" class="form-control" id="txtLimitCount" placeholder="limit count">
+			</div>
+			<a id="btnQuery" class="btn btn-primary">Query</a>
+		</form>
+		<table id="resultTable" class="table table-striped">
+			<thead>
+				<tr><th>Key</th><th>Value</th><th></th></tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		
+	</div>
+</div>
+<script>
+window.onload=function(){
+	keys.init()
+}
+</script>

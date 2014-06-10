@@ -1,0 +1,23 @@
+body {
+  padding-top: 50px;
+}
+a{
+	cursor: pointer;
+}
+footer.footer{
+	padding-top: 80px;
+}
+td.buttons > .glyphicon{
+	margin-right: 10px;
+}
+
+#keysContainer form{
+	padding-top: 10px;
+}
+#keysContainer form>div.form-group{
+	padding-left: 0;
+	padding-right: 2px;
+}
+#keysContainer form input{
+	width: 100%;
+}
