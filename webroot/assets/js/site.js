@@ -5,7 +5,7 @@ var BaseControl = function(ctype){
 	this.init = function(){
 		this.loadRecord();
 		$('#btnQuery').click(function(){
-			thisClas.loadKeys($('#txtStart').val(), $('#txtEnd').val(), $('#txtLimitCount').val())
+			thisClas.loadRecord($('#txtStart').val(), $('#txtEnd').val(), $('#txtLimitCount').val())
 		})
 
 		var $table = $('#resultTable');

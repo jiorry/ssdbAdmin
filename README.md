@@ -2,6 +2,7 @@ ssdbAdmin
 =========
 
 ssdb web admin
+![image](https://github.com/jiorry/ssdbAdmin/raw/master/release/ssdbAdmin.png)
 
 ## Installation
 Make sure you have the a working Go environment. See the [install instructions](http://golang.org/doc/install.html).
