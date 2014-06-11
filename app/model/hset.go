@@ -45,5 +45,5 @@ func (h *HsetModel) Del(name string) (bool, error) {
 	if err != nil {
 		return false, err
 	}
-	return r.Bool(), nil
+	return r.Int64() > 0, nil
 }
