@@ -3,6 +3,16 @@ ssdbAdmin
 
 ![image](https://github.com/jiorry/ssdbAdmin/raw/master/release/ssdbAdmin.png)
 
+## Run
+find [realese] folder and unzip application package.
+modify app/app.conf to connect ssdb server
+
+```
+[ssdb]
+host=127.0.0.1
+port=8888
+```
+
 ## Installation
 Make sure you have the a working Go environment. See the [install instructions](http://golang.org/doc/install.html).
 
@@ -22,14 +32,5 @@ Or compile it from source:
     cd ssdbAdmin && go build
 
 if windows, you only need double click build.bat
-
-## Run
-modify app/app.conf to connect ssdb server
-
-```
-[ssdb]
-host=127.0.0.1
-port=8888
-```
 
 ## Good Luck
