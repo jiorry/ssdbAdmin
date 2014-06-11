@@ -5,7 +5,9 @@ a{
 	cursor: pointer;
 }
 footer.footer{
-	padding-top: 80px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 table.table{
 	word-wrap: break-word;
@@ -14,6 +16,9 @@ table.table td{
 	max-width: 460px;
 }
 td.buttons > .glyphicon{
+	margin-right: 10px;
+}
+table.table td a[data-action]{
 	margin-right: 10px;
 }
 
@@ -29,13 +34,12 @@ td.buttons > .glyphicon{
 }
 
 .th-key{
-	width: 25%;
+	width: 30%;
 }
 
 .th-val{
-	width: 60%;
+	width: 70%;
 }
-
-.th-btn{
-	width: 15%;
+table.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+	background-color: #ECF3E4;
 }

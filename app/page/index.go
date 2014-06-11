@@ -11,6 +11,7 @@ type Index struct {
 func (p *Index) Init() {
 	SetupPage(&p.Page, "index")
 	p.Title = "ssdb admin"
+	p.Layout.AddBottomRender(gos.NewPageTemplateRender("", "_footer", nil))
 }
 
 func SetupPage(p *gos.Page, name string) {
@@ -31,5 +32,4 @@ func SetupPage(p *gos.Page, name string) {
 	data["queue"] = name == "queue"
 
 	p.Layout.AddTopRender(gos.NewPageTemplateRender("", "_header", data))
-	p.Layout.AddBottomRender(gos.NewPageTemplateRender("", "_footer", nil))
 }

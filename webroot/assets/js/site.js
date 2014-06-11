@@ -73,9 +73,8 @@ var BaseControl = function(ctype){
 				h = '<a data-action="view"><i class="glyphicon glyphicon-eye-open"></i> view</a>';
 				break;
 		}
-		return '<tr data-key="'+item+'"><td>'+item+'</td>'+
-			'<td>'+h+'</td>'+
-			'<td class="buttons"><a data-action="delete" class="glyphicon glyphicon-remove"></a> <a data-action="edit" class="glyphicon glyphicon-edit"></a></td></tr>'
+		return '<tr data-key="'+item+'"><td><a data-action="delete" class="glyphicon glyphicon-remove"></a> '+item+'</td>'+
+			'<td>'+h+'</td></tr>'
 	}
 
 	this.viewValue = function(key){
