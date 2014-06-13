@@ -80,7 +80,7 @@ var BaseControl = function(ctype){
 	this.viewValue = function(key){
 		ajax.send('GetValue', {ctype:ctype, key:key, name:this.name})
 			.done(function(result){
-				$('#resultTable tbody tr[data-key='+key+']').find('td:nth-child(2)').text(result)
+				$('#resultTable tbody tr[data-key="'+key+'"]').find('td:nth-child(2)').text(result)
 			})
 			
 	}
@@ -88,7 +88,7 @@ var BaseControl = function(ctype){
 	this.del = function(key){
 		ajax.send('Del', {ctype:ctype, key:key, name: this.name})
 			.done(function(result){
-				$('#resultTable tbody tr[data-key='+key+']').remove()
+				$('#resultTable tbody tr[data-key="'+key+'"]').remove()
 			})
 	}
 }
