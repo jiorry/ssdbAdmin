@@ -3,7 +3,7 @@ package api
 import (
 	"../model"
 	"github.com/jiorry/gos"
-	"github.com/jiorry/lib/util"
+	"github.com/jiorry/gos/lib/util"
 )
 
 var (

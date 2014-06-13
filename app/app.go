@@ -4,7 +4,7 @@ import (
 	"./api"
 	"./page"
 	"github.com/jiorry/gos"
-	"github.com/jiorry/lib/ssdb"
+	"github.com/jiorry/gos/lib/ssdb"
 )
 
 func main() {

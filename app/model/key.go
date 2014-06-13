@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	"github.com/jiorry/lib/ssdb"
+	"github.com/jiorry/gos/lib/ssdb"
 )
 
 type IModel interface {

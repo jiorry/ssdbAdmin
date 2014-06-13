@@ -19,8 +19,6 @@ Make sure you have the a working Go environment. See the [install instructions](
 First, you must install dependence:
 
 	go get github.com/jiorry/gos
-	go get github.com/jiorry/lib/util
-	go get github.com/jiorry/lib/ssdb
 
 And install ssdbAdmin, simply run:
 
