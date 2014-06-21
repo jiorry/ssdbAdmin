@@ -4,7 +4,7 @@ ssdbAdmin
 ![image](https://github.com/jiorry/ssdbAdmin/raw/master/release/ssdbAdmin.png)
 
 ## Run
-find [realese] folder and unzip application package.
+find [build] folder and unzip application package.
 modify app/app.conf to connect ssdb server
 
 ```
