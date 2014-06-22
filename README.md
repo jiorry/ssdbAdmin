@@ -13,7 +13,7 @@ host=127.0.0.1
 port=8888
 ```
 
-## Installation
+## Installation from source
 Make sure you have the a working Go environment. See the [install instructions](http://golang.org/doc/install.html).
 
 First, you must install dependence:
