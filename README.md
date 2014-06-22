@@ -1,7 +1,7 @@
 ssdbAdmin
 =========
 
-![image](https://github.com/jiorry/ssdbAdmin/raw/master/release/ssdbAdmin.png)
+![image](https://raw.githubusercontent.com/jiorry/ssdbAdmin/master/build/ssdbAdmin.png)
 
 ## Run
 find [build] folder and unzip application package.
