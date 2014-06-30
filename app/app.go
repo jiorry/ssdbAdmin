@@ -21,7 +21,7 @@ func main() {
 	// open api router
 	gos.WebApiRoute("web", (*api.WebApi)(nil))
 
-	ssdb.ConnectByConfig(gos.Configuration.GetConf("ssdb"))
+	ssdb.Init(gos.Configuration.GetConf("ssdb"))
 
 	gos.Start()
 }
